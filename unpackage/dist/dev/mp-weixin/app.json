@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/cart/cart",
+    "pages/user/index",
+    "pages/enter/enter",
+    "pages/plant/index",
+    "pages/login/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/library",
+      "pages": [
+        "waterVote/index",
+        "comments/index",
+        "address/index",
+        "address/add",
+        "service/index",
+        "coupon/index",
+        "order/index",
+        "order/comment",
+        "order/orderConfirm",
+        "detail/index",
+        "article/index",
+        "goods/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "1桶水",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#19BEF4",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/common/tab_home.png",
+        "selectedIconPath": "static/img/common/tab_home_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "static/img/common/tab_cate.png",
+        "selectedIconPath": "static/img/common/tab_cate_fill.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/common/tab_cart.png",
+        "selectedIconPath": "static/img/common/tab_cart_fill.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/img/common/tab_user.png",
+        "selectedIconPath": "static/img/common/tab_user_fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pages/library"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单确认",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "v-pay": "/pages/library/components/pay"
+  }
+}

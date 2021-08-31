@@ -1,0 +1,1 @@
+<view class="emptybox" style="{{'height:'+(height+'rpx')+';'}}"><u-empty vue-id="27ab9ab8-1" mode="data" bind:__l="__l"></u-empty></view>

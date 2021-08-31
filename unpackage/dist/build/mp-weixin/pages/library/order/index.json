@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "全部订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "load-more": "/components/loadmore",
+    "v-pay": "/pages/library/components/pay"
+  }
+}

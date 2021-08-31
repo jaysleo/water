@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绿植盆栽",
+  "usingComponents": {
+    "load-more": "/components/loadmore"
+  }
+}

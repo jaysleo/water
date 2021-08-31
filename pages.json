@@ -1,0 +1,183 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsC/test/index", //启动页面，必选
+	// 		"query": "uuid=c4bba940-f69e-11ea-a419-6bafda9d095e&__id__=1" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "1桶水",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/enter/enter",
+			"style": {
+				"navigationBarTitleText": "水站入驻"
+			}
+		},
+		{
+			"path": "pages/plant/index",
+			"style": {
+				"navigationBarTitleText": "绿植盆栽"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/library",
+			"pages": [
+				{
+					"path": "waterVote/index",
+					"style": {
+						"navigationBarTitleText": "水票活动页"
+					}
+				},
+				{
+					"path": "comments/index",
+					"style": {
+						"navigationBarTitleText": "评价"
+					}
+				},
+				{
+					"path": "address/index",
+					"style": {
+						"navigationBarTitleText": "收货地址"
+					}
+				},
+				{
+					"path": "address/add",
+					"style": {
+						"navigationBarTitleText": "新建地址"
+					}
+				},
+				{
+					"path": "service/index",
+					"style": {
+						"navigationBarTitleText": "联系客服"
+					}
+				},
+				{
+					"path": "coupon/index",
+					"style": {
+						"navigationBarTitleText": "优惠券"
+					}
+				},
+				{
+					"path": "order/index",
+					"style": {
+						"navigationBarTitleText": "全部订单",
+						"enablePullDownRefresh":true
+					}
+				},
+				{
+					"path": "order/comment",
+					"style": {
+						"navigationBarTitleText": "评价"
+					}
+				},
+				{
+					"path": "order/orderConfirm",
+					"style": {
+						"navigationBarTitleText": "订单确认"
+					}
+				},
+				{
+					"path": "detail/index",
+					"style": {
+						"navigationBarTitleText": "商品详情"
+					}
+				},
+				{
+					"path": "article/index",
+					"style": {
+						"navigationBarTitleText": "公告详情"
+					}
+				},
+				{
+					"path": "goods/index",
+					"style": {
+						"navigationBarTitleText": "产品列表"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pages/library"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "1桶水",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#19BEF4",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/common/tab_home.png",
+				"selectedIconPath": "static/img/common/tab_home_fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"iconPath": "static/img/common/tab_cate.png",
+				"selectedIconPath": "static/img/common/tab_cate_fill.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/img/common/tab_cart.png",
+				"selectedIconPath": "static/img/common/tab_cart_fill.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/img/common/tab_user.png",
+				"selectedIconPath": "static/img/common/tab_user_fill.png",
+				"text": "我的"
+			}
+		]
+	}
+}

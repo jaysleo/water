@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

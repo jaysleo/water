@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/components/uni-swipe-action-item/uni-swipe-action-item",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "empty": "/components/empty"
+  }
+}

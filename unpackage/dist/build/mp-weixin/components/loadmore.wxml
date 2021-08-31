@@ -1,0 +1,1 @@
+<view class="loadmore data-v-0714af4e"><block wx:if="{{show}}"><u-loadmore vue-id="cb9df860-1" status="{{status}}" load-text="{{loadText}}" class="data-v-0714af4e" bind:__l="__l"></u-loadmore></block></view>

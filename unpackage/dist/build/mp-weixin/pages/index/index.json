@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "1桶水",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "load-more": "/components/loadmore"
+  }
+}
